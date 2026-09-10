@@ -1,0 +1,7 @@
+base,type,P1,P2,P3,P4,P5,P6,min_travel_to_C1_s,P6_min_slack_Wh,f1,f2_min,f3_Wh,proven,seconds,status
+Centola_AIB,"regional AIB helicopter base",0,1,0,0,0,0,2872.75384319487,-42.9566369932649,NaN,NaN,NaN,0,0.0173869,"screen fail: P1,P3,P6"
+VVF_Vallo,"permanent fire station",0,1,0,0,0,0,2042.05673384858,-33.5542618063823,NaN,NaN,NaN,0,0.0116404,"screen fail: P1,P3,P6"
+VVF_Agropoli,"fire station, loc. Mattine",1,1,0,1,1,0,703.979840137535,-43.2203634645939,NaN,NaN,NaN,0,0.0151283,"screen fail: P3,P6"
+Elis_Pattano,"hospital helipad, San Luca",0,1,0,0,0,0,1745.03318598549,-18.1529472765851,NaN,NaN,NaN,0,0.0137937,"screen fail: P1,P3,P6"
+CM_Futani,"CM Bussento-Lambro-Mingardo",0,1,0,0,0,0,2703.96421991677,-42.7993836837684,NaN,NaN,NaN,0,0.0167491,"screen fail: P1,P3,P6"
+CM_Laureana,"CM Alento-Monte Stella",1,1,1,1,1,1,219.498621957304,18.8025857106159,4,63.3612026805104,426.933443741144,1,15.1314789,"optimal"

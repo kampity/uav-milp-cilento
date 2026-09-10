@@ -1,0 +1,13 @@
+name,ok,time,obj,status,expected,observed,checks,violations
+"01 routing 3 pts 1 UAV",1,0.540309,NaN,1,infeasible,infeasible,0,0
+"02 routing + C1 relay",1,0.3247857,3,0,feasible,feasible,100,0
+"03 depot standby",1,0.1707112,2,0,feasible,feasible,65,0
+"04 speed selection",1,0.205021,194.89017040273,0,feasible,feasible,65,0
+"05 wind directional arcs",1,1.4033097,239.029437480062,0,feasible,feasible,103,0
+"06 battery too small",1,0.1921546,NaN,1,infeasible,infeasible,0,0
+"07 charging in route",1,1.3227503,4,0,feasible,feasible,120,0
+"08 emergency reserve Nres=0/1",1,0.4632603,NaN,0,feasible,feasible,134,0
+"09 same-location copies",1,0,NaN,0,zero arcs,zero arcs,0,0
+"10 MTZ, 5 optional points",1,42.140543,487.656360703882,0,feasible,feasible,171,0
+"11 surplus fleet stays idle",1,0.2322344,2,0,feasible,feasible,71,0
+"12 reserve in fleet, not routed",1,0.3014151,3,0,feasible,feasible,69,0

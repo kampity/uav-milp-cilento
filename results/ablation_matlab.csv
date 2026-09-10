@@ -1,0 +1,17 @@
+experiment,variant,f1,f2_min,f3_Wh,charges_or_realised,bins_or_margin,seconds,status
+A speed / strong wind (baseline),fixed 10 m/s,NaN,NaN,NaN,NaN,NaN,0.0417181,screen fail: P6
+A speed / strong wind (baseline),fixed 12 m/s,5,64.527976634147,472.798433761648,1,697,15.923465,optimal
+A speed / strong wind (baseline),fixed 15 m/s,4,63.3612026805108,426.933443741144,1,558,13.1599581,optimal
+A speed / strong wind (baseline),3 levels 8/12/15,4,63.3612026805104,426.933443741144,1,1070,16.2945819,optimal
+A speed / strong wind (baseline),5 levels (baseline),4,63.3612026805104,426.933443741144,1,1582,19.2185259,optimal
+A speed / mild wind (x0.5),fixed 10 m/s,5,64.7521491077826,454.361317389264,0,697,20.1157364,optimal
+A speed / mild wind (x0.5),fixed 12 m/s,4,63.8610477803534,440.625652059902,1,558,14.4041536,optimal
+A speed / mild wind (x0.5),fixed 15 m/s,4,63.0185757108862,421.200560421777,1,558,14.7653551,optimal
+A speed / mild wind (x0.5),3 levels 8/12/15,4,63.0185757108874,421.200560421777,1,1070,17.0586572,optimal
+A speed / mild wind (x0.5),5 levels (baseline),4,63.0185757108879,421.200560421777,1,1582,18.1254371,optimal
+B reserve,N_res=0,4,63.3612026805104,426.933443741144,1,1582,16.9877575,optimal
+B reserve,N_res=1,5,63.3612026805109,426.933443741144,1,1977,23.1255245,optimal
+B reserve,N_res=2,6,63.3612026805104,426.933443741144,1,2372,24.8948846,optimal
+C wind,nowind,4,62.8058797638179,395.286769355639,401.792721041459,-14.2389271533432,18.4288351,UAV1 lands 16.8 Wh below the reserve; UAV4 lands 2.8 Wh below the reserve
+C wind,expected,4,63.3612026805109,426.933443741144,426.933443741144,-2.83228610863389,18.4347078,UAV4 lands 2.8 Wh below the reserve
+C wind,hybrid,4,63.3612026805104,426.933443741144,426.933443741144,0.024720441980925,17.7796703,flyable

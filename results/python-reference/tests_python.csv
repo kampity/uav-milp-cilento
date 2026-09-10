@@ -1,0 +1,13 @@
+test,expected,observed,checks,violations,seconds
+01 routing 3 points 1 UAV,infeasible,infeasible,0,0,0.013184070587158203
+"02 routing + C1 relay, 3 UAVs",feasible,feasible,95,0,0.25420212745666504
+03 depot standby (late C1 start),feasible,feasible,62,0,0.014482736587524414
+04 speed selection (min energy),feasible,feasible,62,0,0.012916088104248047
+05 wind: directional arcs,feasible,feasible,98,0,2.0428082942962646
+06 battery too small -> infeasible,infeasible,infeasible,0,0,0.0025997161865234375
+07 charging station in route,feasible,feasible,114,0,2.5542690753936768
+08a emergency reserve N_res=0,feasible,feasible,64,0,0.020992279052734375
+08b emergency reserve N_res=1,feasible,feasible,64,0,0.014170408248901367
+"10 MTZ, 5 optional points",feasible,feasible*,161,0,180.04353880882263
+11 surplus fleet stays idle,feasible,feasible,68,0,0.025408267974853516
+12 reserve in fleet but not routed,feasible,feasible,66,0,0.023120403289794922

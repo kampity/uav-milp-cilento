@@ -1,0 +1,7 @@
+base,type,P1,P2,P3,P4,P5,P6,min_travel_to_C1_s,P6_min_slack_Wh,f1,f2_min,f3_Wh,proven,seconds,status
+Centola_AIB,regional AIB helicopter base (Campania),0,1,0,0,0,0,2872.7538431948733,-42.79661004144187,,,,0,0.010578155517578125,"screen fail: P1,P3,P4,P5,P6"
+VVF_Vallo,permanent fire station,0,1,0,0,0,0,2042.0567338485766,-33.4612379695176,,,,0,0.010647773742675781,"screen fail: P1,P3,P4,P5,P6"
+VVF_Agropoli,"permanent fire station, loc. Mattine",1,1,0,1,1,0,703.9798401375353,-42.678550238234266,,,,0,0.009886741638183594,"screen fail: P3,P6"
+Elis_Pattano,"hospital helipad, Ospedale San Luca",0,1,0,0,0,0,1745.033185985488,-17.83711588464181,,,,0,0.010593891143798828,"screen fail: P1,P3,P4,P5,P6"
+CM_Futani,Comunita Montana Bussento-Lambro-Mingardo,0,1,0,0,0,0,2703.9642199167724,-42.76609749671531,,,,0,0.010632991790771484,"screen fail: P1,P3,P4,P5,P6"
+CM_Laureana,Comunita Montana Alento-Monte Stella,1,1,1,1,1,1,219.4986219573038,18.802585710902285,4.0,63.361201680510874,426.9334437404257,1,9.720002174377441,optimal

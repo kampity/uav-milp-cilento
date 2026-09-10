@@ -1,0 +1,1 @@
+MATLAB 26.1.0.3312084 (R2026a) Update 4 on win64, 12 cores | YALMIP 20250626 | C:\gurobi1303\win64\matlab\gurobi.mexw64 | TimeLimit 600 s, MIPGap 1e-4, seed 20260815

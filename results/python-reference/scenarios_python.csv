@@ -1,0 +1,9 @@
+scenario,note,f1,f2_min,f3_Wh,charges,proven,seconds,status
+V0 existing infrastructure,"tau_bat = -74 s, R_LB = inf",,,,,0,0.01573920249938965,"screen fail: P1,P2,P3,P6"
+V1 + energy point,"tau_bat = 1696 s, R_LB = 3",,,,,0,0.014081239700317383,screen fail: P1
+V2 forward base + point,"tau_bat = 1696 s, R_LB = 3, P4 = 1, P5 = 1",3.0,62.79453010829265,371.1757467191755,2,0,412.8275969028473,time-limit (incumbent)
+V3 battery x1.2,"mass 1.99 kg, tau_bat = 332 s, R_LB = inf",,,,,0,0.013112545013427734,"screen fail: P1,P2,P3,P6"
+V3 battery x1.4,"mass 2.12 kg, tau_bat = 738 s, R_LB = 8",,,,,0,0.011748313903808594,"screen fail: P1,P3"
+V3 battery x1.6,"mass 2.26 kg, tau_bat = 1143 s, R_LB = 4",,,,,0,0.011912822723388672,"screen fail: P1,P3"
+V3 battery x1.8,"mass 2.40 kg, tau_bat = 1547 s, R_LB = 3",,,,,0,0.005126476287841797,screen fail: P1
+V3 battery x2.0,"mass 2.53 kg, tau_bat = 1951 s, R_LB = 3",,,,,0,0.005154609680175781,screen fail: P1
