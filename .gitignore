@@ -1,0 +1,29 @@
+# Gurobi / licenses — never commit
+*.lic
+gurobi.lic
+
+# MATLAB
+*.asv
+*.autosave
+slprj/
+codegen/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# OS
+.DS_Store
+Thumbs.db
